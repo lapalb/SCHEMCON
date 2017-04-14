@@ -1,0 +1,35 @@
+// THIS IS MENU-DRIVEN PROGRAMME FOR STACK IMPLEMENTATION USING LINKED LIST
+#include <iostream>
+using namespace std;
+int c;
+void ask()
+  {
+        cout<<" 1,x for push 2 for pop 3 for view 4 for exit " <<endl;
+        cin>>c;
+  }
+  struct node{
+      int d;
+      node * ptr;
+  };
+int main()
+{
+    node *top=nullptr;
+    ask();
+
+    while(c!=4)
+    {
+      if(c==1)
+      {
+
+      }
+      if(c==2)
+      {
+
+      }
+      if(c==3)
+      {
+        
+
+      }
+  }
+}
